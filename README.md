@@ -9,11 +9,11 @@ When a 3D print is active, an MQTT plugin in OctoPrint sends data that is parsed
 The clock expects: target temp and actual temp for the hot end and bed, progress percentage as an integer, time remaining, and "is_active" flag.  The "is_active" flag is determined by NodeRed and counts STARTING, PRINTING, PAUSING, PAUSED, RESUMING, FINISHING, CANCELLING as true, anything else is considered false.
 
 OctoPrint plugins:
-https://github.com/OctoPrint/OctoPrint-MQTT
+- https://github.com/OctoPrint/OctoPrint-MQTT
 
 Arduino Libraries:  (all should be available through the manager)
-https://github.com/Makuna/NeoPixelBus
-https://github.com/adafruit/RTClib
-https://github.com/arduino-libraries/NTPClient
-https://playground.arduino.cc/Code/Time/
-https://pubsubclient.knolleary.net/
+- https://github.com/Makuna/NeoPixelBus
+- https://github.com/adafruit/RTClib
+- https://github.com/arduino-libraries/NTPClient
+- https://playground.arduino.cc/Code/Time/
+- https://pubsubclient.knolleary.net/
